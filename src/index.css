@@ -1,0 +1,18 @@
+/* src/index.css */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f4f8;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+@media (max-width: 600px) {
+  .recharts-responsive-container {
+    width: 100% !important;
+    height: 200px !important;
+  }
+}
